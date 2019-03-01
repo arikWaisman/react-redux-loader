@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader reducer default case with initial state return default case 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer hide inline loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer hide sync loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": false,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer interface complete returns proper state returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": -1,
+  "shouldWaitToDisplay": false,
+  "showLoader": false,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer interface error returns proper state returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": "some fake error",
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show and then hide inline loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show and then hide sync loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": false,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show async loader with an interface request returns the correct state 1`] = `
+Object {
+  "async": true,
+  "error": null,
+  "inline": Array [],
+  "loaderType": "FAKE_LOADER",
+  "requests": 1,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show async loader with more than one request and ensure complete decrements  returns the correct state 1`] = `
+Object {
+  "async": true,
+  "error": null,
+  "inline": Array [],
+  "loaderType": "FAKE_LOADER",
+  "requests": 1,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show inline loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [
+    "FAKE_INLINE_LOADER_KEY",
+  ],
+  "loaderType": null,
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": null,
+  "timeOut": null,
+}
+`;
+
+exports[`Loader reducer show sync loader returns the correct state 1`] = `
+Object {
+  "async": false,
+  "error": null,
+  "inline": Array [],
+  "loaderType": "FAKE_LOADER",
+  "requests": 0,
+  "shouldWaitToDisplay": false,
+  "showLoader": true,
+  "timeOut": null,
+}
+`;

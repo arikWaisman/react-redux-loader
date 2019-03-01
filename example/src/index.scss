@@ -1,0 +1,55 @@
+@import 'materialize-css/sass/materialize.scss';
+
+#root {
+  .container {
+    padding-top: 100px
+  }
+
+  .btn-wrap {
+    margin-top: 16px
+  }
+}
+
+.hide-loader {
+  position: absolute;
+
+  @media only screen and (min-width: 993px) {
+    right: 16px;
+    top: 16px;
+  }
+}
+
+.inline-loader-wrap {
+  margin-top: 16px;
+
+  p {
+    display: flex;
+    align-items: center;
+    line-height: 32px;
+    padding: 8px 0;
+
+    span {
+      margin-left: 10px;
+      display: inherit;
+    }
+  }
+}
+
+.full-loader {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16px;
+  z-index: 2;
+
+  @media only screen and (min-width: 601px) {
+    width: 85%;
+  }
+
+  @media only screen and (min-width: 993px) {
+    width: 70%;
+  }
+}

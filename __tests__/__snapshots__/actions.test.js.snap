@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions test Hide inline loader dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": Object {
+        "type": "HIDE_INLINE_LOADER",
+      },
+    },
+    "type": "react-redux-modal/HIDE_INLINE_LOADER",
+  },
+]
+`;
+
+exports[`Actions test Hide sync loader dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "type": "react-redux-modal/HIDE_LOADER",
+  },
+]
+`;
+
+exports[`Actions test Interface complete dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "type": "react-redux-modal/INTERFACE_COMPLETE",
+  },
+]
+`;
+
+exports[`Actions test Interface request dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "async": true,
+      "type": "INTERFACE_REQUEST",
+    },
+    "type": "react-redux-modal/INTERFACE_REQUEST",
+  },
+]
+`;
+
+exports[`Actions test Show inline loader dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "key": Object {
+        "type": "SHOW_INLINE_LOADER",
+      },
+    },
+    "type": "react-redux-modal/SHOW_INLINE_LOADER",
+  },
+]
+`;
+
+exports[`Actions test Show sync loader dispatches proper action and payload 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "type": "LOADER_TEST",
+    },
+    "type": "react-redux-modal/SHOW_LOADER",
+  },
+]
+`;

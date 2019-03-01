@@ -1,0 +1,67 @@
+{
+  "name": "react-redux-loader",
+  "version": "1.0.0",
+  "description": "Simple react loaders with redux that supports multiple requests",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "build": "npm run clean && webpack -p",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Arik Waisman <arik.waisman@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^4.0.0 || ^5.0.0 || ^6.0.0",
+    "redux": "^3.0.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.0",
+    "react-testing-library": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/setup/",
+      "/node_modules/",
+      "/example/",
+      "/vendor/"
+    ],
+    "testMatch": [
+      "***/__tests__/**/*.js?(x)",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>__tests__/setup.js"
+    ]
+  }
+}

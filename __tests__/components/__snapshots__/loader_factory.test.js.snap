@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader factory initially renders 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(LoaderFactory)>
+    <LoaderFactory
+      hideInlineLoader={[Function]}
+      hideSyncLoader={[Function]}
+      interfaceComplete={[Function]}
+      interfaceRequest={[Function]}
+      showInlineLoader={[Function]}
+      showSyncLoader={[Function]}
+    />
+  </Connect(LoaderFactory)>
+</Provider>
+`;
+
+exports[`Loader factory renders with child loaders when action emited 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(LoaderFactory)
+    loadersByType={
+      Object {
+        "TEST_LOADER": [Function],
+      }
+    }
+  >
+    <LoaderFactory
+      hideInlineLoader={[Function]}
+      hideSyncLoader={[Function]}
+      interfaceComplete={[Function]}
+      interfaceRequest={[Function]}
+      loaderType="TEST_LOADER"
+      loadersByType={
+        Object {
+          "TEST_LOADER": [Function],
+        }
+      }
+      showInlineLoader={[Function]}
+      showLoader={true}
+      showSyncLoader={[Function]}
+    >
+      <TEST_LOADER
+        hideInlineLoader={[Function]}
+        hideSyncLoader={[Function]}
+        interfaceComplete={[Function]}
+        interfaceRequest={[Function]}
+        loaderType="TEST_LOADER"
+        loadersByType={
+          Object {
+            "TEST_LOADER": [Function],
+          }
+        }
+        showInlineLoader={[Function]}
+        showLoader={true}
+        showSyncLoader={[Function]}
+      >
+        <div>
+          Test Loader
+        </div>
+      </TEST_LOADER>
+    </LoaderFactory>
+  </Connect(LoaderFactory)>
+</Provider>
+`;

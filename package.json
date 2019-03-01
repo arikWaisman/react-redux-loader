@@ -2,7 +2,6 @@
   "name": "react-redux-loader",
   "version": "1.0.0",
   "description": "Simple react loaders with redux that supports multiple requests",
-  "homepage": "https://arikwaisman.github.io/react-redux-loader",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch --mode=development",
@@ -42,6 +41,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.0.1",
     "jest": "^24.1.0",
     "prettier": "^1.16.1",
     "react": "^16.8.3",
@@ -68,7 +68,5 @@
       "<rootDir>__tests__/setup.js"
     ]
   },
-  "dependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "dependencies": {}
 }

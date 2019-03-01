@@ -1,5 +1,6 @@
 {
-  "name": "loader-demo",
+  "name": "react-redux-loader-demo",
+  "homepage": "https://arikwaisman.github.io/react-redux-loader",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

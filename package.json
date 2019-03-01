@@ -2,6 +2,7 @@
   "name": "react-redux-loader",
   "version": "1.0.0",
   "description": "Simple react loaders with redux that supports multiple requests",
+  "homepage": "https://arikwaisman.github.io/react-redux-loader",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch --mode=development",
@@ -66,5 +67,8 @@
     "setupFilesAfterEnv": [
       "<rootDir>__tests__/setup.js"
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

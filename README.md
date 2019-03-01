@@ -1,3 +1,3 @@
 # react-redux-loader ()
-> React-Redux loaders for controlling loader displays with redux state
+> React-Redux loaders for controlling loader display with redux state
 

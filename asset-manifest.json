@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.e83e839c.chunk.css",
-  "main.js": "/static/js/main.1e58da06.chunk.js",
-  "main.js.map": "/static/js/main.1e58da06.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.e2c636c7.chunk.js": "/static/js/2.e2c636c7.chunk.js",
-  "static/js/2.e2c636c7.chunk.js.map": "/static/js/2.e2c636c7.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.f6768e49f1c080f80294a27b7794e355.js": "/precache-manifest.f6768e49f1c080f80294a27b7794e355.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.e83e839c.chunk.css.map": "/static/css/main.e83e839c.chunk.css.map"
+  "main.css": "/react-redux-loader/static/css/main.e83e839c.chunk.css",
+  "main.js": "/react-redux-loader/static/js/main.b9a13d34.chunk.js",
+  "main.js.map": "/react-redux-loader/static/js/main.b9a13d34.chunk.js.map",
+  "runtime~main.js": "/react-redux-loader/static/js/runtime~main.80445aaa.js",
+  "runtime~main.js.map": "/react-redux-loader/static/js/runtime~main.80445aaa.js.map",
+  "static/js/2.8c62ccc1.chunk.js": "/react-redux-loader/static/js/2.8c62ccc1.chunk.js",
+  "static/js/2.8c62ccc1.chunk.js.map": "/react-redux-loader/static/js/2.8c62ccc1.chunk.js.map",
+  "index.html": "/react-redux-loader/index.html",
+  "precache-manifest.3cffadb7dbfe41be5a15115490833956.js": "/react-redux-loader/precache-manifest.3cffadb7dbfe41be5a15115490833956.js",
+  "service-worker.js": "/react-redux-loader/service-worker.js",
+  "static/css/main.e83e839c.chunk.css.map": "/react-redux-loader/static/css/main.e83e839c.chunk.css.map"
 }

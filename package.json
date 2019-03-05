@@ -1,7 +1,12 @@
 {
   "name": "react-redux-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple react loaders with redux that supports multiple requests",
+  "homepage": "https://github.com/arikWaisman/react-redux-loader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arikWaisman/react-redux-loader"
+  },
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch --mode=development",
@@ -15,6 +20,12 @@
   },
   "author": "Arik Waisman <arik.waisman@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "redux",
+    "loader",
+    "loaders"
+  ],
   "files": [
     "dist"
   ],

@@ -12,8 +12,9 @@ npm install --save react-redux-loader
 
 Check out the [example](https://arikwaisman.github.io/react-redux-loader/) in the [example folder](https://github.com/arikWaisman/react-redux-loader).
 
-**Step 1.** Call `makeLoaderRoot` with your store, your customized loaders and the mounting callback function (if you need to control where in the DOM your root mounts) passed into it, the resulting component is your loader root component.
 
+
+**Step 1.** Call `makeLoaderRoot` with your store, your customized loaders and the mounting callback function (if you need to control where in the DOM your root mounts) passed into it, the resulting component is your loader root component.
 
 ```jsx
 // ./index.js
@@ -45,8 +46,9 @@ export const OTHER_LOADER = OtherLoader;
 export const SPINNING_LOADER = Spinner;
 ```
 
-**Step 2.** Add the loader reducer to your project under the key `loader`.
 
+
+**Step 2.** Add the loader reducer to your project under the key `loader`.
 
 ```jsx
 import { combineReducers } from 'redux';
@@ -59,6 +61,8 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 ```
+
+
 
 **Step 3.** Wire up the provided action creators into your app where appropriate. These can be used in your components or anywhere in your app to dispatch events.
 
@@ -93,6 +97,9 @@ export default connect(
 )(App);
 
 ```
+
+
+
 ## Components
 
 ### Component Factory: **makeLoaderRoot()**
@@ -104,6 +111,7 @@ arguments:
 | `store` | object | Required | undefined | Pass in the redux store. |
 | `loaders` | object | Optional | undefined | Optionally pass a your own loader components. |
 | `mountLoaderRoot` | function | Optional | undefined | callback to change where the in the DOM the loader root mounts. |
+
 
 
 ## Action Creators

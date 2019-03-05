@@ -102,7 +102,7 @@ export default connect(
 
 ## Components
 
-### Component Factory: **makeLoaderRoot()**
+### Component Factory: **makeLoaderRoot(store, loaders, mountLoaderRoot)**
 
 arguments:
 

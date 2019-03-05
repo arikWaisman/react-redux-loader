@@ -1,6 +1,6 @@
 {
   "name": "react-redux-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple react loaders with redux that supports multiple requests",
   "main": "dist/index.js",
   "scripts": {
